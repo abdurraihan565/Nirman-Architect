@@ -1,25 +1,29 @@
 import Wrapper from "@/components/global/wrapper";
-import Analysis from "@/components/marketing/analysis";
-import Companies from "@/components/marketing/companies";
-import CTA from "@/components/marketing/cta";
-import Features from "@/components/marketing/features";
+import Founder from "@/components/marketing/founder";
+import Clients from "@/components/marketing/clients";
+import EngineeringGrid from "@/components/marketing/engineering-grid";
 import Hero from "@/components/marketing/hero";
-import Integration from "@/components/marketing/integration";
-import LanguageSupport from "@/components/marketing/lang-support";
-import Pricing from "@/components/marketing/pricing";
+import Blogs from "@/components/marketing/blogs";
+import FAQ from "@/components/marketing/faq";
+import Services from "@/components/marketing/services";
+import Visualization from "@/components/marketing/visualization";
 
 const HomePage = () => {
     return (
-        <Wrapper className="py-20 relative">
+        <>
             <Hero />
-            <Companies />
-            <Features />
-            <Analysis />
-            <Integration />
-            <Pricing />
-            <LanguageSupport />
-            <CTA />
-        </Wrapper>
+            <Founder />
+            <Wrapper className="py-0 relative">
+                <Services />
+            </Wrapper>
+            <EngineeringGrid />
+            <Wrapper className="py-0 relative">
+                <Visualization />
+                <Blogs />
+                <Clients />
+                <FAQ />
+            </Wrapper>
+        </>
     )
 };
 

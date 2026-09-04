@@ -16,23 +16,17 @@ const MobileMenu = () => {
             </SheetTrigger>
             <SheetContent side="right" className="w-full sm:w-[300px] pt-12">
                 <SheetHeader className="mb-8">
-                    <SheetTitle className="text-left">Menu</SheetTitle>
+                    <SheetTitle className="text-left uppercase">Menu</SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col space-y-4">
                     {NAV_LINKS.map((link, index) => (
-                        <Link
-                            key={index}
-                            href={link.href}
-                            className="text-base font-medium transition-colors hover:text-primary"
-                        >
+                        <Link key={index} href={link.href} className="text-base font-medium uppercase tracking-wide transition-colors hover:text-primary">
                             {link.name}
                         </Link>
                     ))}
                     <div className="pt-4 mt-4 border-t border-border">
-                        <Link href="#" className="w-full">
-                            <Button className="w-full" variant="blue">
-                                Get Started
-                            </Button>
+                        <Link href="#contact" className="w-full">
+                            <Button className="w-full" variant="blue">CONTACT</Button>
                         </Link>
                     </div>
                 </nav>

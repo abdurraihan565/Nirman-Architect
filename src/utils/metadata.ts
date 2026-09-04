@@ -16,32 +16,26 @@ interface MetadataProps {
 }
 
 export const generateMetadata = ({
-    title = `poura - AI-Powered Project Management & Team Collaboration`,
-    description = `poura is an intelligent project management platform that transforms how teams work together. Leverage AI to automate workflows, enhance collaboration, and boost productivity. Experience smarter project management today.`,
+    title = `Dhaka Designer AML | Innovative Architectural Solutions Online`,
+    description = `Dhaka Designer is a leading architecture and design firm offering comprehensive services including architecture, interior design, engineering, 3D visualization, and real estate consultancy. Based in Bangladesh with offices in USA and UAE.`,
     icons = [
         {
             rel: "icon",
-            url: "/icons/icon-dark.png",
-            media: "(prefers-color-scheme: light)",
-        },
-        {
-            rel: "icon",
-            url: "/icons/icon.png",
-            media: "(prefers-color-scheme: dark)",
+            url: "/icons/favicon.png",
         },
     ],
     noIndex = false,
     keywords = [
-        "AI marketing automation",
-        "social media marketing",
-        "content generation",
-        "marketing analytics",
-        "campaign management",
-        "multilingual marketing",
-        "AI copywriting",
-        "marketing workflow",
-        "performance tracking",
-        "digital marketing tools"
+        "architecture firm bangladesh",
+        "interior design dhaka",
+        "engineering services",
+        "3D visualization",
+        "real estate consultancy",
+        "architectural design",
+        "construction management",
+        "LEED consultancy",
+        "civil engineering",
+        "MEP engineering"
     ],
     author = process.env.NEXT_PUBLIC_AUTHOR_NAME,
     type = "website",

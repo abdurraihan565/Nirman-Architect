@@ -2,7 +2,7 @@ import { base, heading } from "./fonts";
 import { PLANS } from "./plans";
 import { NAV_LINKS } from "./links";
 import { SUPPORTED_LANGUAGES } from "./countries";
-import { FEATURES } from "./features";
+import { SERVICES, ENGINEERING_SERVICES, VISUALIZATION_CATEGORIES, BLOG_POSTS, FAQ_ITEMS, CLIENTS } from "./features";
 
 export {
     base,
@@ -10,5 +10,10 @@ export {
     PLANS,
     NAV_LINKS,
     SUPPORTED_LANGUAGES,
-    FEATURES,
+    SERVICES,
+    ENGINEERING_SERVICES,
+    VISUALIZATION_CATEGORIES,
+    BLOG_POSTS,
+    FAQ_ITEMS,
+    CLIENTS,
 };
